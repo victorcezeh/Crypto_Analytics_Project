@@ -37,7 +37,7 @@ CREATE DATABASE metaverse OWNER cryptoverse_admin;
 
 ```
 
-#### Below shows the list of databases with their respective ownners. In psql, you can get the list of databases using the \l meta-command. 
+Below shows the list of databases with their respective owners. In psql, you can get the list of databases using the \l meta-command. 
 
 Peep metaverse and cryptoverse_admin. 😉
 
@@ -55,7 +55,7 @@ CREATE SCHEMA raw;
 ```
 
 
-#### Below shows the list of all database schemas with their respective ownners. In psql, you can get the list of all schemas using the \dn meta-command. 
+Below shows the list of all database schemas with their respective owners. In psql, you can get the list of all schemas using the \dn meta-command. 
 
 Peep the raw schema and cryptoverse_admin. 😉
 
