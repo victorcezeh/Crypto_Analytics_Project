@@ -26,7 +26,6 @@ CREATE USER cryptoverse_admin WITH CREATEDB CREATEROLE PASSWORD **********;
 ```
 
 
-
 #### Using the user from the first step, I created a database called metaverse.
 
 
@@ -38,8 +37,28 @@ CREATE DATABASE metaverse OWNER cryptoverse_admin;
 
 ```
 
-#### Below shows the list of databases with their respective ownners. In psql, you can get the list of databases using \l meta-command. 
+#### Below shows the list of databases with their respective ownners. In psql, you can get the list of databases using the \l meta-command. 
 
-#### Peep metaverse and cryptoverse_admin. 😉
+Peep metaverse and cryptoverse_admin. 😉
 
 ![Screenshot (992)](https://github.com/victorcezeh/Crypto_Analytics_Project/assets/129629266/ec2e8645-f4e0-45ad-a265-b0a250076a71)
+
+
+
+#### I proceeded to create a schema in the metaverse database called raw.
+
+This command will create a new schema named raw in the metaverse database.
+
+```sql
+CREATE SCHEMA raw;
+
+```
+
+
+#### Below shows the list of all database schemas with their respective ownners. In psql, you can get the list of all schemas using the \dn meta-command. 
+
+Peep the raw schema and cryptoverse_admin. 😉
+
+![Screenshot (993)](https://github.com/victorcezeh/Crypto_Analytics_Project/assets/129629266/7fafd5a5-eca4-42f1-a66a-e0a74222b42a)
+
+
