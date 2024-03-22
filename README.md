@@ -24,15 +24,6 @@ I have been tasked with analyzing data about cryptocurrencies. As a data enginee
 - [Acknowledgement](#Acknowledgement)
 
 
-
-  - [Clone Repo](#Clone-Repo)
-  - [Usage](#Usage)
-- [Project Structure](#Project-Structure)
-- [Acknowledgement](#Acknowledgement)
-- [Contributing](#Contributing)
-
-
-
 ## Task 1 - Setting up the database.
 
 #### Using psql (an interactive terminal-based front-end to PostgreSQL), I created a user named 'cryptoverse_admin' with the attributes CREATEDB and CREATEROLE.
