@@ -11,6 +11,28 @@
 I have been tasked with analyzing data about cryptocurrencies. As a data engineer, my manager has shared some CSV files with me containing information needed to answer some questions for the company executives. Throughout this project, I will guide you through a step-by-step process on how I loaded and analyzed the data to help answer relevant business questions.
 
 
+## Table of Contents
+
+- [Task 1 - Setting up the database.](#task-1---setting-up-the-database)
+- [Task 2 - Answering business questions.](#task-2---answering-business-questions)
+  - [1. How many buy and sell transactions are there for Bitcoin?](#1-how-many-buy-and-sell-transactions-are-there-for-bitcoin)
+  - [2. For each year, calculate the following buy and sell metrics for bitcoin:](#2-for-each-year-calculate-the-following-buy-and-sell-metrics-for-bitcoin)
+  - [3. What was the **monthly** total quantity **purchased and sold** for Ethereum in 2020?](#3-what-was-the-monthly-total-quantity-purchased-and-sold-for-ethereum-in-2020)
+  - [4. Who are the top 3 members with the most bitcoin quantity?](#4-who-are-the-top-3-members-with-the-most-bitcoin-quantity)
+- [Tools Used](#Tools-Used)
+- [Project Structure](#Project-Structure)
+- [Acknowledgement](#Acknowledgement)
+
+
+
+  - [Clone Repo](#Clone-Repo)
+  - [Usage](#Usage)
+- [Project Structure](#Project-Structure)
+- [Acknowledgement](#Acknowledgement)
+- [Contributing](#Contributing)
+
+
+
 ## Task 1 - Setting up the database.
 
 #### Using psql (an interactive terminal-based front-end to PostgreSQL), I created a user named 'cryptoverse_admin' with the attributes CREATEDB and CREATEROLE.
