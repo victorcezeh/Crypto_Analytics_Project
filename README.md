@@ -241,15 +241,21 @@ limit 3;
 
 - [Dbeaver](https://dbeaver.io/download/) (version 24.0.0)
 - [SQL Shell (psql)](https://www.postgresql.org/download/)
-
+  
 
 ## Project Structure
 
-`Object_Oriented_Programming.py`: This file contains the Expense and ExpenseDataBase Class Implementations code.
+`README.md`: This file serves as the project documentation, providing an overview of the project, its purpose, and other relevant information.
 
-`README.md`: Project documentation.
+`crypto-analytics.py`: This file contains a Python script with each SQL statement added to a variable representing the corresponding business question number.
 
-`main.py`: The main script to test run the Expense Tracker.
+`crypto-analytics.sql`: This file contains all the SQL statements written in the README.md file, with each SQL statement representing the corresponding business question.
+
+`members.csv`: This file contains information about the members or users registered on the cryptocurrency platform.
+
+`prices.csv`: This file contains historical price data for various cryptocurrencies. 
+
+`transactions.csv`: This file tracks all transactions executed on the cryptocurrency platform.
 
 
 ## Acknowledgement
