@@ -8,7 +8,7 @@
 
 ## Project Introduction
 
-I have been tasked with analyzing data about cryptocurrencies. As a data engineer, my manager has shared some CSV files with me containing information needed to answer some questions for the company executives. Throughout this project, I will guide you through a step-by-step process on how I loaded and analyzed the data to help answer relevant business questions.
+I've been assigned the task of analyzing cryptocurrency data as a data engineer. My manager has provided CSV files containing crucial information required to address inquiries from company executives. This project will walk you through the process of loading and analyzing the data, step by step, to derive insights and answer pertinent business questions.
 
 
 ## Table of Contents
